@@ -1,11 +1,15 @@
 {
   "scripts": {
     "build": "./node_modules/.bin/esbuild src/index.jsx --bundle --outfile=dist/out.js"
- },
-
+  },
   "dependencies": {
+    "env": "^0.0.2",
     "esbuild": "^0.14.18",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "http": "^0.0.1-security",
+    "https": "^1.0.0"
   }
 }
